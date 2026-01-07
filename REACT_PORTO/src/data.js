@@ -114,11 +114,12 @@ import Proyek4 from "/assets/proyek/proyek4.webp";
 import Proyek5 from "/assets/proyek/proyek5.webp";
 import Proyek6 from "/assets/proyek/proyek6.webp";
 import Proyek7 from "/assets/proyek/proyek7.png";
+import proyek8 from "/assets/proyek/proyek8.png";
 
 export const listProyek = [
   {
     id: 1,
-    gambar: Proyek1,
+    gambar: proyek8,
     nama: "Task Adventure CLI",
     desk: "Aplikasi To-Do List berbasis konsol dengan konsep gamifikasi. Selesaikan tugas untuk mengumpulkan koin dan tukarkan dengan self-reward favoritmu agar lebih produktif.",
     tools: ["C++", "CLI", "Gamification"],
