@@ -115,6 +115,10 @@ import Proyek5 from "/assets/proyek/proyek5.webp";
 import Proyek6 from "/assets/proyek/proyek6.webp";
 import Proyek7 from "/assets/proyek/proyek7.png";
 import proyek8 from "/assets/proyek/proyek8.png";
+import proyek9 from "/assets/proyek/proyek9.png";
+import proyek10 from "/assets/proyek/proyek10.png";
+import proyek11 from "/assets/proyek/proyek11.png";
+import proyek12 from "/assets/proyek/proyek12.png";
 
 export const listProyek = [
   {
@@ -128,7 +132,7 @@ export const listProyek = [
   },
   {
     id: 2,
-    gambar: Proyek2,
+    gambar: proyek9,
     nama: "Data Preprocessing Pipeline",
     desk: "Implementasi alur kerja Data Cleaning menggunakan library Pandas. Mencakup deteksi missing values, penanganan duplikasi data, dan validasi struktur dataset Excel sebelum pemodelan statistik.",
     tools: ["Python", "Pandas", "Data Cleaning", "EDA"],
@@ -145,7 +149,7 @@ export const listProyek = [
   },
   {
     id: 4,
-    gambar: Proyek4,
+    gambar: proyek10,
     nama: "Pemetaan Tenaga Kerja Banyumas: Studi Korespondensi Pendidikan vs Status Kerja",
     desk: "Proyek ini menganalisis data ketenagakerjaan dari 924.757 penduduk di Kabupaten Banyumas untuk memahami pola hubungan antara tingkat pendidikan dan jenis pekerjaan. Tujuannya adalah mengidentifikasi mismatch tenaga kerja dan memberikan dasar kebijakan bagi Dinas Tenaga Kerja setempat.",
     tools: ["IBM SPSS Statistics 25", "Microsoft Excel", "DataAnalysis", "PublicPolicy"],
@@ -154,7 +158,7 @@ export const listProyek = [
   },
   {
     id: 5,
-    gambar: Proyek5,
+    gambar: proyek11,
     nama: "SPK Pemilihan Supplier (Fuzzy Tsukamoto)",
     desk: "Sistem pendukung keputusan untuk memilih supplier terbaik berdasarkan kriteria Harga, Kualitas, dan Waktu Pengiriman menggunakan logika Fuzzy Tsukamoto.",
     tools: ["Python", "Fuzzy Logic", "Decision Support System"],
@@ -163,7 +167,7 @@ export const listProyek = [
   },
   {
     id: 6,
-    gambar: Proyek6,
+    gambar: proyek12,
     nama: "Agricultural Optimization: Modeling Coconut Sap Production",
     desk: "Studi kuantitatif untuk memprediksi kapasitas maksimum produksi gula kelapa di Kabupaten Banyumas menggunakan Model Pertumbuhan Logistik. Proyek ini menggunakan Python untuk melakukan Non-linear Least Squares Fitting terhadap data pertanian real-time guna merumuskan strategi ekstensifikasi lahan yang efisien.",
     tools: ["Python (Scipy, NumPy, Matplotlib, Pandas)", "Mathematical Modeling (Logistic Growth)", "Non-linear Regression"],
