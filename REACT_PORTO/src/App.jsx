@@ -96,7 +96,7 @@ function App() {
         {listProyek.map(proyek =>(
           <div className="group bg-stone-900 border border-stone-800 rounded-3xl overflow-hidden hover:border-emerald-500/30 hover:shadow-2xl hover:shadow-emerald-900/10 transition-all duration-500 flex flex-col" key={proyek.id} data-aos="fade-up" data-aos-delay={proyek.dad} data-aos-once="true">
             <div className="overflow-hidden h-52 w-full relative">
-                <img src={proyek.gambar} alt="Proyek image" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
+                <img src={proyek.gambar} alt="Proyek Data Analyst Abdur Rochman Azis - Analisis Tenaga Kerja Banyumas" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
                 <div className="absolute inset-0 bg-gradient-to-t from-stone-900 to-transparent opacity-80"></div>
             </div>
             <div className="p-6 flex-1 flex flex-col">
