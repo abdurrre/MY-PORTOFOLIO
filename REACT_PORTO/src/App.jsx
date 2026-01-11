@@ -18,7 +18,7 @@ function App() {
            Mahasiswa Matematika yang antusias dalam Data Science & Analytics. Saya senang memecahkan masalah kompleks dengan pendekatan statistik dan menyajikannya melalui visualisasi desain yang menarik.
         </p>
         <div className="flex items-center sm:gap-4 gap-3">
-          <a href="/Abdur cv.pdf" download="Abdur cv.pdf" className="bg-emerald-600 px-6 py-4 rounded-full hover:bg-emerald-500 transition-all duration-300 shadow-lg shadow-emerald-700/30 flex items-center gap-2 text-white font-medium group">
+          <a href="/CV SEMENTARA.pdf" download="CV SEMENTARA.pdf" className="bg-emerald-600 px-6 py-4 rounded-full hover:bg-emerald-500 transition-all duration-300 shadow-lg shadow-emerald-700/30 flex items-center gap-2 text-white font-medium group">
            Download CV <i className="ri-download-fill ri-lg group-hover:translate-y-1 transition-transform"></i>
           </a>
           <a href="#project" className="bg-stone-800 px-6 py-4 rounded-full border border-stone-700 hover:bg-stone-700 hover:border-stone-600 transition-all duration-300 text-stone-200">

@@ -10,6 +10,11 @@ const Footer = () => {
         <a href="#project">Project</a>
     </div>
     <div className='flex items-center gap-3'>
+        <a href='https://linkedin.com/in/abdur-rochman-azis-a541763a4' 
+    target="_blank" 
+    rel="noreferrer">
+            <i class='ri-linkedin-fill ri-2x'></i>
+        </a>
         <a href='https://github.com/abdurrre' target="_blank" 
     rel="noreferrer">
             <i className='ri-github-fill ri-2x'></i>
