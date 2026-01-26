@@ -119,6 +119,7 @@ import proyek9 from "/assets/proyek/proyek9.png";
 import proyek10 from "/assets/proyek/proyek10.png";
 import proyek11 from "/assets/proyek/proyek11.png";
 import proyek12 from "/assets/proyek/proyek12.png";
+import proyek13 from "/assets/proyek/prediction_plot.png";
 
 export const listProyek = [
   {
@@ -182,5 +183,14 @@ export const listProyek = [
     tools: ["Graphic Design", "Canva", "Visual Comm"],
     dad: "800",
     link: "https://www.canva.com/design/DAGOwtNa9WA/lfLFOKvW0lzPjmNMFIPyVQ/edit?utm_content=DAGOwtNa9WA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+  },
+  {
+     id: 7,
+    gambar: proyek13,
+    nama: "IHSG-IDR Forecasting with Multivariate LSTM",
+    desk: "Pengembangan model Deep Learning menggunakan arsitektur Stacked LSTM untuk memprediksi pergerakan Indeks Harga Saham Gabungan (IHSG) dan Nilai Tukar Rupiah (USD/IDR) secara simultan. Model ini memanfaatkan data historis keuangan dan makroekonomi untuk meningkatkan akurasi prediksi, membantu investor dalam pengambilan keputusan yang lebih baik di pasar saham Indonesia.",
+    tools: ["Python", "TensorFlow/Keras", "Scikit-Learn", "LSTM", "Time Series Forecasting"],
+    dad: "900",
+    link: "https://github.com/abdurrre/IHSG-IDR-Forecasting-LSTM",
   },
 ];
