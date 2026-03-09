@@ -129,7 +129,7 @@ export const listProyek = [
     desk: "Aplikasi To-Do List berbasis konsol dengan konsep gamifikasi. Selesaikan tugas untuk mengumpulkan koin dan tukarkan dengan self-reward favoritmu agar lebih produktif.",
     tools: ["C++", "CLI", "Gamification"],
     dad: "200",
-    link: "https://github.com/abdurrre/Task-Adventure-CLI",
+    link: "https://github.com/abdurrre/task-adventure-cpp-react",
   },
   {
     id: 2,
