@@ -120,6 +120,7 @@ import proyek10 from "/assets/proyek/proyek10.png";
 import proyek11 from "/assets/proyek/proyek11.png";
 import proyek12 from "/assets/proyek/proyek12.png";
 import proyek13 from "/assets/proyek/prediction_plot.png";
+import proyek14 from "/assets/proyek/proyek14.png";
 
 export const listProyek = [
   {
@@ -176,21 +177,21 @@ export const listProyek = [
     link: "https://github.com/abdurrre/Agricultural-Optimization-Modeling-Coconut-Sap-Production",
   },
   {
-    id: 7,
-    gambar: Proyek7,
-    nama: "Peduli Sesama Campaign",
-    desk: "Inisiatif sosial pembagian sembako untuk keluarga prasejahtera dan lansia di sekitar Universitas Jenderal Soedirman. Bertujuan meringankan beban ekonomi dan memperkuat solidaritas sosial antar warga.",
-    tools: ["Graphic Design", "Canva", "Visual Comm"],
-    dad: "800",
-    link: "https://www.canva.com/design/DAGOwtNa9WA/lfLFOKvW0lzPjmNMFIPyVQ/edit?utm_content=DAGOwtNa9WA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
-  },
-  {
      id: 7,
     gambar: proyek13,
     nama: "IHSG-IDR Forecasting with Multivariate LSTM",
     desk: "Pengembangan model Deep Learning menggunakan arsitektur Stacked LSTM untuk memprediksi pergerakan Indeks Harga Saham Gabungan (IHSG) dan Nilai Tukar Rupiah (USD/IDR) secara simultan. Model ini memanfaatkan data historis keuangan dan makroekonomi untuk meningkatkan akurasi prediksi, membantu investor dalam pengambilan keputusan yang lebih baik di pasar saham Indonesia.",
     tools: ["Python", "TensorFlow/Keras", "Scikit-Learn", "LSTM", "Time Series Forecasting"],
-    dad: "900",
+    dad: "800",
     link: "https://github.com/abdurrre/IHSG-IDR-Forecasting-LSTM",
+  },
+  {
+     id: 8,
+    gambar: proyek14,
+    nama: "Picture Classification with CNN",
+    desk: "Pengembangan model Deep Learning untuk mengklasifikasikan gambar berdasarkan kategori tertentu. Model ini menggunakan arsitektur Convolutional Neural Network (CNN) untuk mencapai akurasi tinggi dalam tugas klasifikasi gambar.",
+    tools: ["Python", "TensorFlow/Keras", "OpenCV", "Computer Vision"],
+    dad: "900",
+    link: "https://klasifikasi-gambar-ai.vercel.app/",
   },
 ];
